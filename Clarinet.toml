@@ -9,6 +9,21 @@ requirements = []
 path = 'contracts/outcome-measurement.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.payment-calculation]
+path = 'contracts/payment-calculation.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.provider-verification]
+path = 'contracts/provider-verification.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.risk-adjustment]
+path = 'contracts/risk-adjustment.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
